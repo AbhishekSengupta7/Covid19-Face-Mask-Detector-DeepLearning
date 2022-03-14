@@ -1,1 +1,21 @@
-# ML-Communication-Electronics
+Folder Structure:
+- Final submission- 04 February
+    - Live_classify.py : Script executed on the Raspberry Pi 4(buzzer and fully working code)
+    - modelfile.eim : Trained model file used by the Live_classify.py (Both files to be present in the same path OR pass the modelfile as an argument)
+    - ReadMe : information for the execution of the script
+    - Facemask_Edge.py : Training script
+    - Demonstration_video.mp4  : Deminstration video for the project
+    - Final_report.pdf : Final Report
+    - Final_presentation_04_feb.pptx/pdf - Final presentation slides as used on Feb 4, 2022.
+- Submission-code 17_01_2022
+    - Live_classify.py : Script executed on the Raspberry Pi 4
+    - modelfile.eim : Trained model file used by the Live_classify.py (Both files to be present in the same path OR pass the modelfile as an argument)
+    - ReadMe : information for the execution of the script
+    - Report2_Face_Mask_Dectection.pdf : Second status Report
+- dataset : contains the source images used to train the model
+    - with_mask
+    - without_mask 
+- Report_ Face Mask Detector_17Dec.pdf : First status Report
+- mask_detector.model : model file using TensorFlow
+- plot.png : Accuracy plot for mask_detector.model
+- train_mask_detector.py : Script use to achive the modelfile using TensorFlow on the local PC

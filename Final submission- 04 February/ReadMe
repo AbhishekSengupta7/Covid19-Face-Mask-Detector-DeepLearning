@@ -1,0 +1,11 @@
+Use .eim modelfile in Live_classify.py to access camera and perform live classification.
+
+The following library lets you run machine learning models and collect sensor data on Linux machines using Python.
+The SDK is open source and hosted on GitHub: edgeimpulse/linux-sdk-python.
+
+$ sudo apt-get install libatlas-base-dev libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev
+$ pip3 install edge_impulse_linux -i https://pypi.python.org/simple
+
+
+> Tested on Rpi
+> To run the classification (.py and .eim should be in same directory) $ python Live_classify.py modelfile.eim
